@@ -15,6 +15,8 @@
 		D11DE04C2A0A048400C4D4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11DE04B2A0A048400C4D4B9 /* Assets.xcassets */; };
 		D11DE04F2A0A048400C4D4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11DE04D2A0A048400C4D4B9 /* LaunchScreen.storyboard */; };
 		D11DE0572A0A089400C4D4B9 /* BMICalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DE0562A0A089400C4D4B9 /* BMICalcViewController.swift */; };
+		D1C755C02A16168700861EAC /* webVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C755BF2A16168700861EAC /* webVC.swift */; };
+		D1C755C32A16172100861EAC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C755C22A16172000861EAC /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D11DE04E2A0A048400C4D4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D11DE0502A0A048400C4D4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D11DE0562A0A089400C4D4B9 /* BMICalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalcViewController.swift; sourceTree = "<group>"; };
+		D1C755BF2A16168700861EAC /* webVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webVC.swift; sourceTree = "<group>"; };
+		D1C755C22A16172000861EAC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C755C32A16172100861EAC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +49,10 @@
 		D11DE0362A0A047E00C4D4B9 = {
 			isa = PBXGroup;
 			children = (
+				D1C755BF2A16168700861EAC /* webVC.swift */,
 				D11DE0412A0A047E00C4D4B9 /* MyCollections */,
 				D11DE0402A0A047E00C4D4B9 /* Products */,
+				D1C755C12A16172000861EAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +78,14 @@
 				D11DE0562A0A089400C4D4B9 /* BMICalcViewController.swift */,
 			);
 			path = MyCollections;
+			sourceTree = "<group>";
+		};
+		D1C755C12A16172000861EAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1C755C22A16172000861EAC /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D11DE0572A0A089400C4D4B9 /* BMICalcViewController.swift in Sources */,
+				D1C755C02A16168700861EAC /* webVC.swift in Sources */,
 				D106E4B02A160BF10075DC66 /* rgbVC.swift in Sources */,
 				D11DE0472A0A047E00C4D4B9 /* ViewController.swift in Sources */,
 				D11DE0432A0A047E00C4D4B9 /* AppDelegate.swift in Sources */,
