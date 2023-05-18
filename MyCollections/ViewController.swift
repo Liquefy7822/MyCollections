@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // outlets
+    @IBOutlet weak var button_bmi: UIButton!
+    @IBOutlet weak var button_rgb: UIButton!
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        button_bmi.layer.cornerRadius = 10
+        
+        
     }
-
-
 }
-
