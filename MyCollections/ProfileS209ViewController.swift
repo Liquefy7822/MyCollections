@@ -10,7 +10,7 @@ import UIKit
 class ProfileS209ViewController: UIViewController {
     
     @IBOutlet weak var mytext: UITextView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +20,7 @@ class ProfileS209ViewController: UIViewController {
     }
     
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -28,6 +28,4 @@ class ProfileS209ViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
-
 }
