@@ -7,9 +7,11 @@
 
 import UIKit
 
-class ProfileS209ViewController: UIViewController {
+class ProfileS209ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    let pdata = S207Data()
     @IBOutlet weak var mytext: UITextView!
+    @IBOutlet weak var mypicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

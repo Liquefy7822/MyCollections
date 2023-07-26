@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="1842.0289855072465" y="14.673913043478262"/>
         </scene>
-        <!--ProfileS209 View Controller.swift-->
+        <!--ProfileS209 View Controller-->
         <scene sceneID="Oq7-J4-kM3">
             <objects>
-                <viewController id="ThP-eb-KCt" customClass="ProfileS209ViewController.swift" customModule="MyCollections" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ThP-eb-KCt" customClass="ProfileS209ViewController" customModule="MyCollections" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9K5-Pm-Bmt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
